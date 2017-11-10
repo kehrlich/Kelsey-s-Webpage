@@ -1,0 +1,29 @@
+/*
+* Kelsey Ehrlich
+* November 7, 2017
+* This project is a CSS practice.
+*/
+
+
+/* The universal selector */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Put body attributes here */
+
+ h1 { 
+ 	font-size: 400%;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	text-decoration: underline overline;	
+
+}
+
+img	{float:right;
+	height: 425px;
+	width: 650px;
+	}
+
