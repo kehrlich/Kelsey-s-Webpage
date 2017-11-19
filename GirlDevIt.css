@@ -1,0 +1,52 @@
+/*
+* Kelsey Ehrlich
+* November 17, 2017
+* This project is a CSS for my GirlDevIt html page.
+*/
+
+/* The universal selector */
+
+body {
+	background-color: #FFE4E1;
+	}
+
+/* Put body attributes here */
+
+img {
+	height: 150px;
+	width: 475px;
+	}
+
+h1 { 
+ 	font-size: 200%;
+ 	text-align: left;
+ 	text-decoration: underline;	
+	font-family: cursive;
+	}
+	
+body {
+	font-size: 110%;
+ 	text-align: left;	
+	font-family: Times New Roman;
+	}
+	
+h2 {
+	font-size: 150%;
+ 	text-align: left;
+ 	text-decoration: underline;	
+	font-family: cursive;
+	}
+	
+ul {
+	font-size: 100%;
+ 	text-align: left;	
+	font-family: Times New Roman;
+	}
+	
+a:link { color: #0000FF;}
+
+a:hover, a:focus{ 
+	color: fuchsia;
+	font-size: 150%;
+	text-decoration: underline;
+}
