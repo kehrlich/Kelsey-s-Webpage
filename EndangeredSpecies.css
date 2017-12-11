@@ -1,0 +1,90 @@
+/*
+*Kelsey Ehrlich
+*December 11, 2017
+*A Web Page created to showcase the plight of Darwin's Fox.
+*/
+
+/*The universal selector */
+* { margin: 0;
+	padding: 0;
+	}
+
+body {
+	background-color: #DCDCDC;
+	width: 950px;
+	margin: auto;
+	}
+
+/* Put body attributes here */
+
+
+main{
+	width: 900px;
+	margin: 40px 40px 40px 40px;
+	padding: 10px;	/*all four sides*/ 
+	border-top: thin solid black;
+	border-bottom: thin solid black;
+	}
+
+/*This tells the images what to do including size and border*/
+img {
+	/* margin: 5px 10px 1px 10px; */
+	margin: 40px;
+	height: 180px;
+	width: 225px;
+	float: right;
+	border: 1px solid #778899;
+	}
+
+/* The H1's different color from the paragraphs is included in here*/ 	
+h1 { 
+ 	font-size: 210%;
+ 	text-align: center;
+ 	text-decoration: underline;	
+	font-family: sans-serif;
+	color: #778899;
+	padding: 90px;
+	margin: 40px 40px 40px 40px;
+	padding: 10px;
+	}
+	
+p {
+	margin: 0;			/* all four sides*/
+	padding-left: 15px;
+	padding: 10px;
+	}
+	
+body {
+	font-size: 118%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	}
+/*The H2's different color change is included in here.*/	
+h2 {
+	font-size: 154%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	color:#778899;
+	}
+	
+ul {
+	font-size: 100%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	}
+
+/*The links instruction including color, font size, and text decoration is included in here*/	
+a:link { color: #0000FF;}
+
+a:hover, a:focus{ 
+	color: fuchsia;
+	font-size: 150%;
+	text-decoration: underline;
+}
+/*The footer font family, font size, color, and margin is included in here*/
+footer {
+	font-family: sans-serif;
+	font-size: 70%;
+	color:#778899;
+	margin: 40px 40px 40px 40px;
+	}
