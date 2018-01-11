@@ -1,0 +1,152 @@
+/*
+*Kelsey Ehrlich
+*January 11, 2018
+*A Web Page created to showcase American Inventor Margaret E. Knight.
+*/
+
+/*The universal selector */
+
+* { margin: 0;
+	padding: 0;
+	}
+	
+h4 {
+	font-size: 210%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	color: black;
+	text-decoration: underline;
+	}
+
+header {
+	border-bottom: 2px solid black;
+	}
+	
+body {
+	background-color: #E2F1B9;
+	width: 90%;
+	margin: auto;
+    border: 2px solid black; 
+	/*font-size: 108%;
+ 	text-align: center;	*/
+	font-family: sans-serif;
+	}
+/* Put body attributes here */
+
+#sidebarA{ 
+	float: left;
+	border: 2px;
+	width: 27%;	
+    height: 670px;   
+	border-right: 2px solid black;  
+	}
+	
+#sidebarB {
+	width: 28%;
+	float: right;
+    height: 670px;     
+    border-left: 2px solid black; 
+	}
+	
+main{
+	width: 42%;
+	/* margin: 5px 5px 5px 5px; */
+	/* height:600px; */
+	/*padding: 2px;	/*all four sides*/ 
+	float: left;
+	font-family: sans-serif;
+	}
+
+/*This tells the images what to do including size and border*/
+img {
+	/* margin: 5px 10px 1px 10px; */
+	margin: 14px; 
+	height: 180px;
+	width: 180px;
+	float: center;
+	border: 1px solid #778899;
+	}
+	
+.margaret {
+	float: left;
+	height: 190px;
+	width: 160px;
+	}
+	
+.knight{
+	float: right;
+	height: 190px;
+	width: 170px;
+	}
+
+ /* The H1's different color from the paragraphs is included in here*/ 	
+h1 { 
+ 	font-size: 210%;
+ 	text-align: center;
+ 	text-decoration: underline;	
+	font-family: sans-serif;
+	color: black;
+	padding: 90px;
+	margin: 25px 25px 25px 25px; 
+	padding: 10px;
+	}
+	
+blockquote{
+	font-size: 108%;
+ 	text-align: center;	
+	font-family: sans-serif;
+	padding: 40px;
+	}
+	
+p {
+	margin: 0;			/* all four sides*/
+	padding-left: 15px;
+	padding: 8px;
+	font-size: 100%;
+ 	text-align: left;	
+	/*font-family: sans-serif; */
+	
+	}
+
+/*The H2's different color change is included in here.*/	
+h2 {
+	font-size: 160%;
+ 	text-align: center;	
+	font-family: sans-serif;
+	color: black;
+	text-decoration: underline;
+	}
+
+	
+h3 {font-size: 120%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	color: black;
+	padding: 5px;
+	}
+	
+ul {
+	font-size: 100%;
+ 	text-align: left;	
+	font-family: sans-serif;
+	}
+
+/*The links instruction including color, font size, and text decoration is included in here*/	
+a:link { color: #0000FF;}
+
+a:hover, a:focus{ 
+	color: fuchsia;
+	font-size: 150%;
+	text-decoration: underline;
+}
+/*The footer font family, font size, color, and margin is included in here*/
+
+footer {
+	font-family: sans-serif;
+	font-size: 80%;
+	color: black;
+	argin: 40px 40px 40px 40px; 
+	clear: both; 
+    border-top: 2px solid black;
+    text-align: left;
+	}
